@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		281B0C442B2C6AAC00080A5F /* CardSwipeAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281B0C432B2C6AAC00080A5F /* CardSwipeAnimationApp.swift */; };
+		281B0C462B2C6AAC00080A5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281B0C452B2C6AAC00080A5F /* ContentView.swift */; };
+		281B0C482B2C6AB100080A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281B0C472B2C6AB100080A5F /* Assets.xcassets */; };
+		281B0C4B2B2C6AB100080A5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281B0C4A2B2C6AB100080A5F /* Preview Assets.xcassets */; };
+		281B0C562B2C6AB200080A5F /* CardSwipeAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281B0C552B2C6AB200080A5F /* CardSwipeAnimationTests.swift */; };
+		281B0C612B2C6AB200080A5F /* CardSwipeAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281B0C602B2C6AB200080A5F /* CardSwipeAnimationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		281B0C522B2C6AB200080A5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 281B0C382B2C6AAC00080A5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 281B0C3F2B2C6AAC00080A5F;
+			remoteInfo = CardSwipeAnimation;
+		};
+		281B0C5D2B2C6AB200080A5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 281B0C382B2C6AAC00080A5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 281B0C3F2B2C6AAC00080A5F;
+			remoteInfo = CardSwipeAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		281B0C402B2C6AAC00080A5F /* CardSwipeAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardSwipeAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		281B0C432B2C6AAC00080A5F /* CardSwipeAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSwipeAnimationApp.swift; sourceTree = "<group>"; };
+		281B0C452B2C6AAC00080A5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		281B0C472B2C6AB100080A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		281B0C4A2B2C6AB100080A5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		281B0C4C2B2C6AB100080A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		281B0C512B2C6AB200080A5F /* CardSwipeAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardSwipeAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		281B0C552B2C6AB200080A5F /* CardSwipeAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSwipeAnimationTests.swift; sourceTree = "<group>"; };
+		281B0C572B2C6AB200080A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		281B0C5C2B2C6AB200080A5F /* CardSwipeAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardSwipeAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		281B0C602B2C6AB200080A5F /* CardSwipeAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSwipeAnimationUITests.swift; sourceTree = "<group>"; };
+		281B0C622B2C6AB200080A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		281B0C3D2B2C6AAC00080A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281B0C4E2B2C6AB200080A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281B0C592B2C6AB200080A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		281B0C372B2C6AAC00080A5F = {
+			isa = PBXGroup;
+			children = (
+				281B0C422B2C6AAC00080A5F /* CardSwipeAnimation */,
+				281B0C542B2C6AB200080A5F /* CardSwipeAnimationTests */,
+				281B0C5F2B2C6AB200080A5F /* CardSwipeAnimationUITests */,
+				281B0C412B2C6AAC00080A5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		281B0C412B2C6AAC00080A5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				281B0C402B2C6AAC00080A5F /* CardSwipeAnimation.app */,
+				281B0C512B2C6AB200080A5F /* CardSwipeAnimationTests.xctest */,
+				281B0C5C2B2C6AB200080A5F /* CardSwipeAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		281B0C422B2C6AAC00080A5F /* CardSwipeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				281B0C432B2C6AAC00080A5F /* CardSwipeAnimationApp.swift */,
+				281B0C452B2C6AAC00080A5F /* ContentView.swift */,
+				281B0C472B2C6AB100080A5F /* Assets.xcassets */,
+				281B0C4C2B2C6AB100080A5F /* Info.plist */,
+				281B0C492B2C6AB100080A5F /* Preview Content */,
+			);
+			path = CardSwipeAnimation;
+			sourceTree = "<group>";
+		};
+		281B0C492B2C6AB100080A5F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				281B0C4A2B2C6AB100080A5F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		281B0C542B2C6AB200080A5F /* CardSwipeAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				281B0C552B2C6AB200080A5F /* CardSwipeAnimationTests.swift */,
+				281B0C572B2C6AB200080A5F /* Info.plist */,
+			);
+			path = CardSwipeAnimationTests;
+			sourceTree = "<group>";
+		};
+		281B0C5F2B2C6AB200080A5F /* CardSwipeAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				281B0C602B2C6AB200080A5F /* CardSwipeAnimationUITests.swift */,
+				281B0C622B2C6AB200080A5F /* Info.plist */,
+			);
+			path = CardSwipeAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		281B0C3F2B2C6AAC00080A5F /* CardSwipeAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281B0C652B2C6AB200080A5F /* Build configuration list for PBXNativeTarget "CardSwipeAnimation" */;
+			buildPhases = (
+				281B0C3C2B2C6AAC00080A5F /* Sources */,
+				281B0C3D2B2C6AAC00080A5F /* Frameworks */,
+				281B0C3E2B2C6AAC00080A5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardSwipeAnimation;
+			productName = CardSwipeAnimation;
+			productReference = 281B0C402B2C6AAC00080A5F /* CardSwipeAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		281B0C502B2C6AB200080A5F /* CardSwipeAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281B0C682B2C6AB200080A5F /* Build configuration list for PBXNativeTarget "CardSwipeAnimationTests" */;
+			buildPhases = (
+				281B0C4D2B2C6AB200080A5F /* Sources */,
+				281B0C4E2B2C6AB200080A5F /* Frameworks */,
+				281B0C4F2B2C6AB200080A5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				281B0C532B2C6AB200080A5F /* PBXTargetDependency */,
+			);
+			name = CardSwipeAnimationTests;
+			productName = CardSwipeAnimationTests;
+			productReference = 281B0C512B2C6AB200080A5F /* CardSwipeAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		281B0C5B2B2C6AB200080A5F /* CardSwipeAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281B0C6B2B2C6AB200080A5F /* Build configuration list for PBXNativeTarget "CardSwipeAnimationUITests" */;
+			buildPhases = (
+				281B0C582B2C6AB200080A5F /* Sources */,
+				281B0C592B2C6AB200080A5F /* Frameworks */,
+				281B0C5A2B2C6AB200080A5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				281B0C5E2B2C6AB200080A5F /* PBXTargetDependency */,
+			);
+			name = CardSwipeAnimationUITests;
+			productName = CardSwipeAnimationUITests;
+			productReference = 281B0C5C2B2C6AB200080A5F /* CardSwipeAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		281B0C382B2C6AAC00080A5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					281B0C3F2B2C6AAC00080A5F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					281B0C502B2C6AB200080A5F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 281B0C3F2B2C6AAC00080A5F;
+					};
+					281B0C5B2B2C6AB200080A5F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 281B0C3F2B2C6AAC00080A5F;
+					};
+				};
+			};
+			buildConfigurationList = 281B0C3B2B2C6AAC00080A5F /* Build configuration list for PBXProject "CardSwipeAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 281B0C372B2C6AAC00080A5F;
+			productRefGroup = 281B0C412B2C6AAC00080A5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				281B0C3F2B2C6AAC00080A5F /* CardSwipeAnimation */,
+				281B0C502B2C6AB200080A5F /* CardSwipeAnimationTests */,
+				281B0C5B2B2C6AB200080A5F /* CardSwipeAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		281B0C3E2B2C6AAC00080A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281B0C4B2B2C6AB100080A5F /* Preview Assets.xcassets in Resources */,
+				281B0C482B2C6AB100080A5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281B0C4F2B2C6AB200080A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281B0C5A2B2C6AB200080A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		281B0C3C2B2C6AAC00080A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281B0C462B2C6AAC00080A5F /* ContentView.swift in Sources */,
+				281B0C442B2C6AAC00080A5F /* CardSwipeAnimationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281B0C4D2B2C6AB200080A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281B0C562B2C6AB200080A5F /* CardSwipeAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281B0C582B2C6AB200080A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281B0C612B2C6AB200080A5F /* CardSwipeAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		281B0C532B2C6AB200080A5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 281B0C3F2B2C6AAC00080A5F /* CardSwipeAnimation */;
+			targetProxy = 281B0C522B2C6AB200080A5F /* PBXContainerItemProxy */;
+		};
+		281B0C5E2B2C6AB200080A5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 281B0C3F2B2C6AAC00080A5F /* CardSwipeAnimation */;
+			targetProxy = 281B0C5D2B2C6AB200080A5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		281B0C632B2C6AB200080A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		281B0C642B2C6AB200080A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		281B0C662B2C6AB200080A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CardSwipeAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = D4AE72QMSM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CardSwipeAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fpns.com.CardSwipeAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		281B0C672B2C6AB200080A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CardSwipeAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = D4AE72QMSM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CardSwipeAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fpns.com.CardSwipeAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		281B0C692B2C6AB200080A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4AE72QMSM;
+				INFOPLIST_FILE = CardSwipeAnimationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fpns.com.CardSwipeAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardSwipeAnimation.app/CardSwipeAnimation";
+			};
+			name = Debug;
+		};
+		281B0C6A2B2C6AB200080A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4AE72QMSM;
+				INFOPLIST_FILE = CardSwipeAnimationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fpns.com.CardSwipeAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardSwipeAnimation.app/CardSwipeAnimation";
+			};
+			name = Release;
+		};
+		281B0C6C2B2C6AB200080A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4AE72QMSM;
+				INFOPLIST_FILE = CardSwipeAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fpns.com.CardSwipeAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardSwipeAnimation;
+			};
+			name = Debug;
+		};
+		281B0C6D2B2C6AB200080A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4AE72QMSM;
+				INFOPLIST_FILE = CardSwipeAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fpns.com.CardSwipeAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardSwipeAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		281B0C3B2B2C6AAC00080A5F /* Build configuration list for PBXProject "CardSwipeAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281B0C632B2C6AB200080A5F /* Debug */,
+				281B0C642B2C6AB200080A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		281B0C652B2C6AB200080A5F /* Build configuration list for PBXNativeTarget "CardSwipeAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281B0C662B2C6AB200080A5F /* Debug */,
+				281B0C672B2C6AB200080A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		281B0C682B2C6AB200080A5F /* Build configuration list for PBXNativeTarget "CardSwipeAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281B0C692B2C6AB200080A5F /* Debug */,
+				281B0C6A2B2C6AB200080A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		281B0C6B2B2C6AB200080A5F /* Build configuration list for PBXNativeTarget "CardSwipeAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281B0C6C2B2C6AB200080A5F /* Debug */,
+				281B0C6D2B2C6AB200080A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 281B0C382B2C6AAC00080A5F /* Project object */;
+}
