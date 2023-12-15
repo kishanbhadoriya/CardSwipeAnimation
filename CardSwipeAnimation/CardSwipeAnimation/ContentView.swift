@@ -17,7 +17,6 @@ struct ContentView: View {
             ZStack () {
                 Color.white
                 VStack {
-                    Spacer()
                     Color.blue
                 }
                 .frame(width: render.size.width-160, height: 300)
